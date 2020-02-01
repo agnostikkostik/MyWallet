@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отсканировать" />
+
+    <TextView
+        android:id="@+id/resultScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Данные QR" />
+
+    <TextView
+        android:id="@+id/resultAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Информация о наличии чека" />
+
+    <TextView
+        android:id="@+id/infoRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Информация о чеке" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Проверить существование" />
+
+    <Button
+        android:id="@+id/btnGetData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запросить данные (если существует!!!)" />
+
+</LinearLayout>
